@@ -39,8 +39,16 @@ album2 = Albums.new({'title'=>'By The WAY',
 band1.show_albums()
 album3.find_artists()
 
+band2.band = "Metallica"
+band2.artists_update()
+
+album3.title = "Master Of Puppets"
+album3.album_update()
+
 Artists.all()
 Albums.all()
+Artists.find(1)
+Albums.find(1)
 
 
 
