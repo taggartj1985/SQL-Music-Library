@@ -47,8 +47,8 @@ album3.album_update()
 
 Artists.all()
 Albums.all()
-Artists.find(1)
-Albums.find(1)
+# Artists.find(1)
+# Albums.find(1)
 
 
 
